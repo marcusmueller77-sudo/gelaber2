@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Globale Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f5f5f5;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+/* Tablet-Optimierungen */
+@media (min-width: 768px) {
+  button {
+    min-height: 48px;
+    min-width: 48px;
+    font-size: 1.125rem;
+  }
+}
+
+/* Fullscreen-Styles */
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Hervorhebung für aktuelle Sätze */
+.highlight-sentence {
+  background-color: #fbbf24;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Text-Selection */
+::selection {
+  background-color: #fbbf24;
+  color: #000;
+}

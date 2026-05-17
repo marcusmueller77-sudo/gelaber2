@@ -1,0 +1,7 @@
+[
+  {
+    "origin": ["http://localhost:5173", "http://192.168.2.209:5173", "https://gelaber2.vercel.app"],
+    "method": ["GET", "POST", "PUT", "DELETE"],
+    "maxAgeSeconds": 3600
+  }
+]
