@@ -1,0 +1,34 @@
+[33mcommit 2da9f188061a95688c09316d6d118d0690215869[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Marcus Mueller <marcusmueller77@googlemail.com>
+Date:   Sun May 17 11:04:17 2026 +0200
+
+    Initial commit gelaber2
+
+ .env                              |   20 [32m+[m
+ .gitignore                        |   33 [32m+[m
+ README.md                         |  222 [32m++[m
+ cors.json                         |    7 [32m+[m
+ index.html                        |   12 [32m+[m
+ package-lock.json                 | 7304 [32m+++++++++++++++++++++++++++++++++++++[m
+ package.json                      |   30 [32m+[m
+ postcss.config.js                 |    6 [32m+[m
+ src/App.jsx                       |   99 [32m+[m
+ src/components/DocumentUpload.jsx |  302 [32m++[m
+ src/components/PatientManager.jsx |  285 [32m++[m
+ src/components/QuestionButton.jsx |  114 [32m+[m
+ src/components/TextPlayer.jsx     |  198 [32m+[m
+ src/i18n/de.json                  |  104 [32m+[m
+ src/i18n/en.json                  |  104 [32m+[m
+ src/i18n/i18n.js                  |   29 [32m+[m
+ src/index.css                     |   50 [32m+[m
+ src/main.jsx                      |   11 [32m+[m
+ src/pages/AdminDashboard.jsx      |  102 [32m+[m
+ src/pages/Login.jsx               |  117 [32m+[m
+ src/pages/PatientView.jsx         |  196 [32m+[m
+ src/services/elevenlabs.js        |  260 [32m++[m
+ src/services/firebase.js          |  357 [32m++[m
+ src/services/mistral.js           |  167 [32m+[m
+ tailwind.config.js                |   18 [32m+[m
+ vercel.json                       |   20 [32m+[m
+ vite.config.js                    |   14 [32m+[m
+ 27 files changed, 10181 insertions(+)
